@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>CoviBoard | Contact Us</title>
+    <link rel="icon" type="image/png" href="https://cdn.glitch.com/9bf902c1-5a1a-476b-be5c-f634a17b6a7f%2Flogo16.png?v=1626100725186"/>
+    <meta name="title=" content="COVIBOARD | CONTACT">
+  <meta name="image" content="https://cdn.glitch.com/9bf902c1-5a1a-476b-be5c-f634a17b6a7f%2Fvaccine.png?v=1624599327686"/>
+  <meta name="description" content="One stop for all COVID-19 related information"/>
+  <meta name="url" content="https://coviboard.glitch.me/contact.html"/>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link href="bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="contact.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <div class="row">
+        <div class="col-1">
+          <img
+            src="https://cdn.glitch.com/9bf902c1-5a1a-476b-be5c-f634a17b6a7f%2Fphone-contact.png?v=1624629521808"
+          />
+        </div>
+        <div class="col-10">
+          <h1 id="title" style="text-align: center;"><br />Contact Us</h1>
+        </div>
+      </div>
+    </header>
+    <div class="row">
+      <div class="col-4" id="l0">
+        <center>
+          <a href="https://coviboard.glitch.me/home.html">Home&emsp;<i class="fi-sr-home"></i></a>
+        </center>
+      </div>
+      <div class="col-4" id="l1">
+        <center>
+          <a href="https://coviboard.glitch.me/updates.html">Updates&emsp;<i class="fi-sr-alarm-clock"></i></a>
+        </center>
+      </div>
+      <div class="col-4" id="l2">
+        <center>
+          <a href="#">Vaccination Status&emsp;<i class="fi-sr-syringe"></i></a>
+        </center>
+      </div>
+    </div>
+    <form>
+      <div class="row">
+        <div class="col-3"><p>Enter your Name *</p></div>
+        <div class="col-3">
+          <input class="inp" type="text" name="mytext" value="First name" />
+        </div>
+        <div class="col">
+          <input class="inp" type="text" name="mytext" value=" Last name" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3"><p>Enter your Email ID *</p></div>
+        <div class="col-3">
+          <input
+            type="email"
+            name=""
+            value="something@domain.com/in/edu"
+            size="40px"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3"><p>Enter your Mobile Number *</p></div>
+        <div class="col-3">
+          <input
+            type="tel"
+            value="xxx-xxx-xxxx"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3"><p>Enter your Date of Birth *</p></div>
+        <div class="col-3"><input type="date" name="mydate" /></div>
+      </div>
+      <div class="row">
+        <div class="col-3"><p>Select your Gender *</p></div>
+        <div class="col-1">
+          <input type="radio" name="Gender" />
+          <p>Male</p>
+        </div>
+        <div class="col-1">
+          <input type="radio" name="Gender" />
+          <p>Female</p>
+        </div>
+        <div class="col-3">
+          <input type="radio" name="Gender" />
+          <p>Prefer not to say</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">Cause of Approach *</div>
+        <div class="col-3">
+          <select>
+            <option>Select</option>
+            <option>Number change request</option>
+            <option>Unable to login</option>
+            <option>Other</option>
+          </select>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-3"><p>Enter a breif report of your approach</p></div>
+        <div class="col-5"><textarea row="3" cols="40"></textarea></div>
+      </div>
+      <br />
+      <input type="checkbox" value="" />
+      I agree to the terms and conditions of this website</p>
+      <button id="subl" class="btn btn-primary" onclick="sub()">Submit</button>
+    </form>
+    <script>
+      function sub() {
+        alert("Your quiery has been registered");
+      }
+    </script>
+    <div class="fot">
+      
+    </div>
+	<div class="footer">
+		<center>
+			<p>
+			  This site is designed and maintained by <span style="color: wheat;"
+				>Jagadeesh Undavalli</span
+			  > a student of Vishnu Institute of Technology
+			</p>
+		  </center>
+    	<div class="row">
+      		<div class="col-1"><a id="bot" href="https://github.com/UndavalliJagadeesh"><img
+            src="https://cdn.glitch.com/9bf902c1-5a1a-476b-be5c-f634a17b6a7f%2Fgithub.png?v=1624599273671"
+            alt="github"
+            style="margin-left:60px;"
+        /></a>
+      	</div>
+      	<div class="col-1">
+        	<a id="bot1" href="https://www.linkedin.com/in/jagadeeshundavalli/"
+          	><img
+            src="https://cdn.glitch.com/9bf902c1-5a1a-476b-be5c-f634a17b6a7f%2Flinkedin.png?v=1624601883463"
+            alt="linkedin"
+        	/></a>
+      	</div>
+      	<div class="col-6">
+        	<p style="margin-left: 50%;">© 2021, CoviBoard.  All Rights Reserved.</p>
+      	</div>
+    </div>
+  </body>
+</html>
